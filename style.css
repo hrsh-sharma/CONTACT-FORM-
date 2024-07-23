@@ -1,0 +1,94 @@
+/* General Form Styles */
+.contact-form-container {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 0PX;
+    font-size: 45PX;
+    color: #007BFF;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+input[type="text"], input[type="email"], input[type="tel"] {
+    font-size: 16px;
+}
+
+textarea {
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+  border:1px solid #007bff;
+      border-radius: 3px;
+    cursor: pointer;
+    left: 20px;
+    font-size: 16px;
+    position: relative;
+    top: -21px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.sub-mit{
+    width: 100%;
+    left: 0;
+    margin-top: 20px;
+  transition: 0.5S EASE-IN-OUT;
+}
+.sub-mit:hover{
+    background-color:transparent;
+    border:1px solid #007bff;
+    color: #007bff;
+}
+.custom-recaptcha {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#captchaCanvas {
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .contact-form-container {
+        padding: 15px;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px 0;
+    }
+
+    input, textarea, select {
+        font-size: 14px;
+    }
+}
